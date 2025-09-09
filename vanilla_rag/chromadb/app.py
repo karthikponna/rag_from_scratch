@@ -26,6 +26,8 @@ results = collection.query(
     n_results=3,
 )
 
+print(results["documents"][0])
+
 for idx, document in enumerate(results["documents"][0]):
     doc_id = results["ids"][0][idx]
     doc_distance = results["distances"][0][idx]

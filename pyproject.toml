@@ -7,10 +7,18 @@ requires-python = ">=3.13"
 dependencies = [
     "chromadb>=1.0.15",
     "groq>=0.30.0",
+    "langchain>=0.3.27",
     "langchain-community>=0.3.29",
+    "langchain-groq>=0.3.8",
+    "langchain-openai>=0.3.33",
+    "lxml>=6.0.2",
     "openai>=1.99.1",
+    "pdfminer>=20191125",
+    "pillow>=11.3.0",
     "pymupdf>=1.26.4",
     "pypdf>=6.0.0",
     "python-dotenv>=1.1.1",
     "rank-bm25>=0.2.2",
+    "tiktoken>=0.11.0",
+    "unstructured>=0.18.15",
 ]
